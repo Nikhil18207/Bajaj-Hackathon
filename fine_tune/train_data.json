@@ -1,0 +1,12 @@
+[
+    {
+      "query": "Does the policy cover surgery for a 46-year-old male?",
+      "context": "The policy covers all surgeries for individuals between the ages of 18 and 60, provided a 3-month waiting period has been completed. This clause applies to all policyholders, regardless of gender.",
+      "response": "{\"Decision\": \"Approved\", \"Amount\": \"N/A\", \"Justification\": \"The policy covers surgery for individuals between the ages of 18 and 60, as per the provided clause.\"}"
+    },
+    {
+      "query": "Is dental work included in the coverage?",
+      "context": "This policy explicitly excludes any dental procedures, cosmetic surgery, and eye examinations. The policy also has a 6-month waiting period for all non-emergency procedures.",
+      "response": "{\"Decision\": \"Rejected\", \"Amount\": 0, \"Justification\": \"The policy explicitly excludes dental procedures.\"}"
+    }
+  ]

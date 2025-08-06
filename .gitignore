@@ -1,0 +1,46 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+
+# VSCode / IDE settings
+.vscode/
+.idea/
+
+# MacOS metadata
+.DS_Store
+
+# PyCharm
+*.iml
+
+# Output files
+*.log
+*.pkl
+*.faiss
+*.pt
+*.bin
+
+# Test, cache, and backup files
+*.bak
+*.swp
+*.swo
+
+# Python egg
+*.egg-info/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data & model files (you can customize this)
+data/
+docs/
+
+# Hugging Face cache
+~/.cache/huggingface/
